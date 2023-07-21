@@ -13,6 +13,6 @@ RUN apt-get update &&\
 
 USER openwrt
 
-ADD build.sh .
+ADD build.sh /home/openwrt
 
 WORKDIR /home/openwrt
